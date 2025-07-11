@@ -1,4 +1,4 @@
-com\example\bollywood_ms\model\Movie.class
-com\example\bollywood_ms\controller\MovieController.class
-com\example\bollywood_ms\BollywoodApplication.class
-com\example\bollywood_ms\service\MovieService.class
+com\example\moviesms\model\Movie.class
+com\example\moviesms\controller\MovieController.class
+com\example\moviesms\MoviesMsApplication.class
+com\example\moviesms\service\MovieService.class

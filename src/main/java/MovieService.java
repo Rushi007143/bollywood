@@ -1,19 +1,18 @@
-package com.example.bollywood_ms.service;
+package com.example.moviesms.service;
 
-import com.example.bollywood_ms.model.Movie;
+import com.example.moviesms.model.Movie;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Service
 public class MovieService {
 
     public List<Movie> getAllMovies() {
-        return Arrays.asList(
-                new Movie(1L, "DDLJ", "Romance", 1995),
-                new Movie(2L, "Sholay", "Action", 1975),
-                new Movie(3L, "3 Idiots", "Drama", 2009)
+        return List.of(
+                new Movie(1L, "3 Idiots", "Drama", 2009, "https://image.tmdb.org/t/p/w500/xyz1.jpg"),
+                new Movie(2L, "Sholay", "Action", 1975, "https://image.tmdb.org/t/p/w500/xyz2.jpg"),
+                new Movie(3L, "DDLJ", "Romance", 1995, "https://image.tmdb.org/t/p/w500/xyz3.jpg")
         );
     }
 }
